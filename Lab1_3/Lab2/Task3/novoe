@@ -1,0 +1,39 @@
+#!/bin/bash
+
+PRIGNAME=$(basename $0)
+TITLE="System Information Report For $HOSTNAME"
+CURRENT_TIME=$(date +"%x %r %z")
+TIME_STAMP="Generated $CURRENT_TIME, BY $USER"
+HTML_FILE="./html.html"
+
+
+report_uptime () {
+    echo "<H2>System Uptime</H2>" >> "$HTML_FILE"
+    echo "<PRE>$(uptime)</PRE>" >> "$HTML_FILE"
+}
+
+report_disk_space (){
+    echo "<H2>Disk Space Utilization</H2>" >> "$HTML_FILE"
+    echo "<PRE>$(df -h)</PRE>" >> "$HTML_FILE"
+}
+
+# Generate the report
+{
+    echo "<html><head><title>$TITLE</title></head><body>"
+    echo "<H1>$TITLE</H1>"
+    echo "<P>$TIME_STAMP</P>"
+    report_uptime
+    report_disk_space
+    echo "</body></html>"
+} > "$HTML_FILE"
+
+# Open the HTML file in the default web browser
+if command -v xdg-open > /dev/null; then
+    xdg-open "$HTML_FILE"  # For Linux
+elif command -v open > /dev/null; then
+    open "$HTML_FILE"  # For macOS
+elif command -v start > /dev/null; then
+    start "$HTML_FILE"  # For Windows (via WSL or Git Bash)
+else
+    echo "Cannot open the HTML file automatically. Please open it manually."
+fi
