@@ -13,5 +13,4 @@ I'm a Backend Developer focused on the Java ecosystem. I enjoy building reliable
 * 📚 **Deep Dive:** Closing knowledge gaps in Java Core and the Collections Framework under the hood.
 
 ### 📫 How to reach me
-* **LinkedIn:** [Nikita's LinkedIn](ТВОЯ_ССЫЛКА_НА_ЛИНКЕДИН)
-* **Telegram:** [telegram](t.me/sincostanctg)
+* **Telegram:** @sincostanctg
