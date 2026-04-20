@@ -1,16 +1,17 @@
-## Hi there 👋
+# Hi there, I'm Nikita! 👋
 
-<!--
-**causeloven/causeloven** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a Backend Developer focused on the Java ecosystem. I enjoy building reliable web applications, designing architecture, and continuously sharpening my algorithmic problem-solving skills.
 
-Here are some ideas to get you started:
+### 🛠 Tech Stack
+* **Languages:** Java 17+
+* **Frameworks & Tech:** Spring (MVC, Core), Thymeleaf
+* **Databases:** SQL (PostgreSQL / MySQL) * **Tools & Practices:** Git, Maven, OOP, Data Structures & Algorithms
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 What I'm currently working on
+* 📦 **Warehouse Management System:** Developing a comprehensive CRUD application for inventory control using Spring MVC. 
+* 🧠 **Algorithmic Problem Solving:** Consistently grinding LeetCode (Arrays, Two Pointers, Hash Tables) to keep my logic sharp and write optimized $\mathcal{O}(N)$ code.
+* 📚 **Deep Dive:** Closing knowledge gaps in Java Core and the Collections Framework under the hood.
+
+### 📫 How to reach me
+* **LinkedIn:** [Nikita's LinkedIn](ТВОЯ_ССЫЛКА_НА_ЛИНКЕДИН)
+* **Telegram:** [telegram](t.me/sincostanctg)
